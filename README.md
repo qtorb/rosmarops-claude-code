@@ -10,11 +10,15 @@ This plugin does not include RosmarOps. It calls the program you installed, so u
 
 ## Install
 In a Claude Code session:
+```
 /plugin install rosmarops --marketplace qtorb/rosmarops-claude-code
+```
 
 Or from your shell:
+```
 claude plugin marketplace add qtorb/rosmarops-claude-code
 claude plugin install rosmarops@rosmarops
+```
 
 ## What it does not do
 - It does not use the network.
@@ -26,7 +30,9 @@ claude plugin install rosmarops@rosmarops
 A plugin cannot set Claude Code's status line. To add it, open your RosmarOps report and follow «What RosmarOps has installed».
 
 ## Uninstall
+```
 /plugin uninstall rosmarops
+```
 
 ## License
 AGPL-3.0, like RosmarOps. Methodology and trust model: https://rosmarops.com
