@@ -1,5 +1,6 @@
 {
   "name": "rosmarops",
+  "description": "Tells you in one line, when a Claude Code session opens, what changed in what your agents can do.",
   "owner": {
     "name": "Albert Garcia Pujadas"
   },
