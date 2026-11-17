@@ -1,0 +1,12 @@
+{
+  "name": "rosmarops",
+  "owner": {
+    "name": "Albert Garcia Pujadas"
+  },
+  "plugins": [
+    {
+      "name": "rosmarops",
+      "source": "./"
+    }
+  ]
+}

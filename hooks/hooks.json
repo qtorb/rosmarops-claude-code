@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "rosmarops",
+            "args": ["session-check"],
+            "timeout": 3
+          }
+        ]
+      }
+    ]
+  }
+}
