@@ -1,7 +1,7 @@
 {
   "name": "rosmarops",
   "displayName": "RosmarOps",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tells you in one line, when a Claude Code session opens, what changed in what your agents can do.",
   "author": {
     "name": "Albert Garcia Pujadas"
