@@ -1,0 +1,24 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  plugin:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: No network in the plugin
+        run: sh tests/check-no-network.sh
+      - name: Nothing runs code but the one hook
+        run: sh tests/check-shape.sh
+      - name: Install Claude Code (no key needed to validate)
+        run: npm install -g @anthropic-ai/claude-code@2.1.326
+      - name: claude plugin validate --strict
+        run: claude plugin validate --strict .

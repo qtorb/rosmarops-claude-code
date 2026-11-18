@@ -1,0 +1,12 @@
+{
+  "name": "rosmarops",
+  "displayName": "RosmarOps",
+  "version": "0.1.0",
+  "description": "Tells you in one line, when a Claude Code session opens, what changed in what your agents can do.",
+  "author": {
+    "name": "Albert Garcia Pujadas"
+  },
+  "homepage": "https://rosmarops.com",
+  "repository": "https://github.com/qtorb/rosmarops-claude-code",
+  "license": "AGPL-3.0"
+}
