@@ -8,6 +8,8 @@ Each time you open a Claude Code session, RosmarOps tells you in one line what c
 RosmarOps installed on this computer: https://rosmarops.com
 This plugin does not include RosmarOps. It calls the program you installed, so updates and the integrity check stay with the program.
 
+It works in Claude Code only: in Claude chat and Cowork it does nothing, because it needs RosmarOps on your computer.
+
 ## Install
 In a Claude Code session:
 ```
