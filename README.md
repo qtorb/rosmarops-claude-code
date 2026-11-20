@@ -4,6 +4,8 @@ Each time you open a Claude Code session, RosmarOps tells you in one line what c
 
 `/rosmarops` shows your latest result and the command to run a full review in your terminal.
 
+When a Claude Code session starts, the plugin runs `rosmarops session-check`, which only reads Claude Code's settings and tells you what changed since you last opened the project. The `/rosmarops` command shows your last result and the command to run a full review in a terminal; to get that result it may run `rosmarops statusline`, which only reads the file your last review left. The plugin never starts a review, never uses the network and never changes your settings.
+
 ## What it needs
 RosmarOps installed on this computer: https://rosmarops.com
 This plugin does not include RosmarOps. It calls the program you installed, so updates and the integrity check stay with the program.
